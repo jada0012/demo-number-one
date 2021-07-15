@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+import config
 intents = discord.Intents.default()
 intents.members = True
 import random
@@ -96,4 +97,4 @@ async def timey(ctx):
     
     
 
-client.run('NzUyNjMxODU3MzkyMjU0OTk2.X1adCg.3tzVyvLVk8A445h84kfkOxZF-rw')
+client.run(config.TOKEN)
